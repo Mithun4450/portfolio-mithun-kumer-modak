@@ -18,7 +18,7 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className="pt-12 text-center lg:text-left border-2 border-rose-200 mt-5 shadow-lg">
+    <div className="pt-12 text-center lg:text-left border-2 border-rose-200 mt-5 shadow-lg ">
       <div className="lg:flex justify-between items-center">
         <div data-aos="fade-right" className="space-y-3">
           <h4 className="text-2xl font-semibold ml-10"><span className="text-rose-600">Hi,</span> I am</h4>

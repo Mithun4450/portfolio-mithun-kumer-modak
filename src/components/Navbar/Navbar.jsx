@@ -23,19 +23,11 @@ const Navbar = () => {
       </>
     );
   
-    const handleDownload = () => {
-      window.open(
-        "https://drive.google.com/u/1/uc?id=1UbigA8uKQ4D5M4cZ4tTAl0IEET1cRd8y&export=download",
-
-        "_parent"
-        
-      );
-    };
-  
+      
     return (
       <>
-        <div className="navbar bg-base-200 h-16 pt-4 font-bold">
-          <div className="navbar-start">
+        <div className="navbar bg-rose-200 h-16 p-8 font-bold">
+          <div className=" w-full mx-auto lg:navbar-start ">
             <div className="dropdown">
               <label tabIndex={0} className="btn btn-ghost lg:hidden">
                 <svg
@@ -60,7 +52,7 @@ const Navbar = () => {
                 {navLinks}
               </ul>
             </div>
-            <a className="normal-case text-4xl font-bold hover:text-rose-600">
+            <a className="normal-case text-lg md:text-xl lg:text-2xl text-center lg:text-left  font-bold hover:text-rose-600">
               Mithun Kumer Modak
             </a>
           </div>
@@ -69,12 +61,9 @@ const Navbar = () => {
           </div>
           <div className="navbar-end">
             <div className="hidden lg:block">
-              <a
-                className="btn btn-outline btn-error rounded-full font-bold"
-                onClick={handleDownload}
-              >
-                Download Resume
-              </a>
+              <button className="btn btn-outline  rounded-full font-bold hover:btn-error ">
+              <a href="#contact">Hire Me</a>
+            </button>
             </div>
           </div>
         </div>
