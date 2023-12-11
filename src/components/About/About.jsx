@@ -26,7 +26,7 @@ const About = () => {
                 >
                 <img src={about} alt="" className="w-[300px] h-[300px] rounded-xl" />
                 </div>
-                <div className="lg:w-[70%]" data-aos="zoom-in-up">
+                <div className="lg:w-[70%] p-5" data-aos="zoom-in-up">
                 <p className="text-lg text-justify">
                 Welcome to my world of web development! I'm Mithun Kumer Modak, a passionate full-stack developer who recently mastered the MERN (MongoDB, Express.js, React, Node.js) stack. My journey into the realm of web development began with an insatiable curiosity and a determination to create immersive, user-centric digital experiences.
 

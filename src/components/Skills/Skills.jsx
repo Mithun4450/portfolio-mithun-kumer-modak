@@ -22,7 +22,7 @@ const Skills = () => {
       subheading={"My Skills"}
       ></SectionTitle>
 
-      <div className="mt-10 grid lg:grid-cols-4 gap-5 w-3/4 mx-auto">
+      <div className="mt-10 grid grid-cols-2 lg:grid-cols-4 gap-5 w-3/4 mx-auto">
         <img className="w-20 h-20" src={img1} alt="" />
         <img className="w-20 h-20" src={img2} alt="" />
         <img className="w-20 h-20" src={img3} alt="" />
