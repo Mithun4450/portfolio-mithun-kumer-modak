@@ -1,12 +1,16 @@
+import About from "../About/About";
 import Banner from "../Banner/Banner";
 import Navbar from "../Navbar/Navbar";
+import Skills from "../Skills/Skills";
 
 
 const Home = () => {
     return (
-        <div className="max-w-6xl mx-auto">
+        <div id="home" className="max-w-6xl mx-auto">
             <Navbar></Navbar>
             <Banner></Banner>
+            <About></About>
+            <Skills></Skills>
             
         </div>
     );
