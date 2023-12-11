@@ -1,10 +1,12 @@
+import Banner from "../Banner/Banner";
 import Navbar from "../Navbar/Navbar";
 
 
 const Home = () => {
     return (
-        <div>
+        <div className="max-w-6xl mx-auto">
             <Navbar></Navbar>
+            <Banner></Banner>
             
         </div>
     );
