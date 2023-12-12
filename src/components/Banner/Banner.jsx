@@ -8,7 +8,7 @@ const Banner = () => {
   const handleDownload = () => {
     window.open(
       "https://drive.google.com/u/1/uc?id=1UbigA8uKQ4D5M4cZ4tTAl0IEET1cRd8y&export=download",
-      "_parent"
+      "parent"
 
     );
   };
@@ -18,8 +18,8 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className="pt-12 text-center lg:text-left border-2 border-rose-200 mt-5 shadow-lg ">
-      <div className="lg:flex justify-between items-center">
+    <div className="pt-12 text-center lg:text-left lg:border-2 border-rose-200 mt-5 shadow-lg ">
+      <div className="lg:flex lg:justify-between items-center">
         <div data-aos="fade-right" className="space-y-3">
           <h4 className="text-2xl font-semibold ml-10"><span className="text-rose-600">Hi,</span> I am</h4>
           <h1 className="text-4xl lg:text-5xl font-bold ml-10">Mithun Kumer Modak</h1>
@@ -50,11 +50,11 @@ const Banner = () => {
             Download Resume
           </button>
         </div>
-        <div data-aos="fade-left" className="flex justify-center mr-14">
+        <div data-aos="fade-left" className="ml-16 md:ml-56 mt-8 lg:mr-14">
           <img
             src={image}
             
-            className="w-[300px] rounded-t-full "
+            className="w-[300px] rounded-t-full  "
           />
         </div>
       </div>
